@@ -1,0 +1,373 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+	margin: 0;
+}
+
+         /* Nav bar start */
+.form-control{
+	margin-left: 600px;
+}
+.header{
+	padding: 10px 0px;
+    background-color:#D0F7F8;
+}
+.hero{
+	background:url(../image/first.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 640px;
+}
+.hero h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.hero p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.first_row {
+    color: #343a40;
+    text-align: center;
+    padding: 40px 0px;
+    font-weight: 700;
+}
+.img h3 {
+    color: #9f3c3c;
+    font-size: 43px;
+    text-align: center;
+    padding-top: 50px;
+}
+.zero{
+    background-color: #D0F7F8;
+    padding: 50px 0px;
+}
+.zero h1{
+    text-align: center;
+    padding: 25px;
+    color: #00cce0;
+    
+}
+.zero h3{
+    text-align: center;
+   /* color: #7DB3E2;*/
+}
+.zero p{
+    text-align:left;
+    font-size: 20px;
+    color: #5392C8;
+}
+.zero .icons{
+    /*;color: #7DB3E2*/
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    color: black;
+    font-size: 50px;
+    margin-left: 111px;
+    padding: 20px;
+    color: #5392C8;
+}
+
+              /*first section start */
+.first{
+    padding: 65px 0px;
+}
+.first h1{
+    text-align: center;
+    padding-bottom: 35px;
+    color: #00cce0;
+
+}
+.items{
+    padding-bottom: 25px;
+
+}
+       /* sliders  section start */
+.second{
+    background-color: #D0F7F8;
+    padding:40px 0px;
+    text-align: center;
+}
+.second h1{
+    color:#00cce0;
+}
+.second p{
+    padding-bottom:20px ;
+}
+
+.pricing_sector {
+    padding: 60px 0;
+    background-color:#f9f9f9;
+}
+.pricing_sector h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.pp{
+    text-align: center;
+    /* margin: 16px 0; */
+    padding: 14px;
+    font-size: 20px;
+}
+.price_box_item{
+  border: 5px solid;
+  border-color:white;
+}
+.inner_box1{
+    text-align: center;
+}
+.inner_box1 h3 {
+   font-size: 30px;
+    font-weight: 600;
+    color: #00cce1;
+    padding-top: 30px;
+}
+.inner_box1 p {
+    font-size: 23px;
+}
+.inner_box2{
+   /* border: 3px solid black;*/
+    text-align: center;
+    padding: 10px 0px;
+    /*border-width: 100%;*/
+
+}
+
+.inner_box2 h3{
+    font-size: 50px;
+    color: #00cce1;
+
+} 
+
+.inner_box2 p {
+   color: #00cce1;
+   font-size: 24px;
+}
+.inner_box3{
+    text-align:center;
+}
+.inner_box3 h5{
+    padding: 5px 0px;
+}
+.price_btn{
+    border: none;
+    margin,padding: 0;
+    background:#00cce0;
+    color: white;
+    margin: 16px 0;
+    border-radius: 0px;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+.price_box:hover .price_box_item{
+    border-color:#f69165;
+    transition: all 0.3s ease-in-out;
+}
+.price_box:hover .inner_box1 h3{
+    color:#f69165; 
+    transition: all 0.3s ease-in-out;
+} 
+
+.price_box:hover .inner_box2 {
+    background-color:#f69165;
+    color: white;
+    transition: all 0.3s ease-in-out;
+} 
+.price_box:hover .inner_box2 p {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.price_box:hover .inner_box2 h3 {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.price_box:hover .price_btn{
+    background-color:#f69165;
+    transition: all 0.3s ease-in-out;
+}
+      /*    slider start */
+
+.slider {
+    padding:50px 0px;
+}
+.itemm{
+    border: 5px solid #00cce0;
+    padding: 0px;
+
+}      
+.slider h1{
+ text-align: center;
+ padding: 30px;
+ color: #00cce0;
+}
+.slider h3{
+    color:#00cce0;
+    margin: 5px;
+}
+.slider p{
+    margin: 5px;
+}
+
+
+.footer_bottom{
+    padding:50px 0;
+    background-color:  #D0F7F8;
+.left{
+    padding: 5px;
+}
+.left p{
+    color: #00cce1;
+    padding-top: 25px;
+}
+.left_2nd{
+    display:flex;
+}
+.left_2nd_icon{
+    color: #f69165;
+    font-size: 40px;
+    padding-right: 18px;
+    padding-bottom: 25px;
+    margin-top: 15px;
+}
+
+.left_2nd_p p{
+    font-size: 20px;
+    color: #00cce1;
+
+}
+.middle{
+
+}
+.middle_box_item-p p{
+    color: #00cce1;
+
+}
+.middle h1{
+        color:#00cce1;
+}
+.middle_box_item-p h6{
+        color: white;
+}
+.middle_box_item-pic {
+    margin-right: 15px;
+    height: 64px;
+    width: 50px;
+    border-radius: 50%;
+    padding-left: -42px;
+    display: flex;
+}
+.middle_box_item-pic{
+    margin-right: 15px;
+    display: flex;
+}
+
+.bbb {
+    border: px solid #00cce1;
+    width: 375px;
+    height: 265px;
+}
+.neww{
+    width: 290px;
+}
+
+.slider .container .owl-carousel .imgg {
+    width: 100%; 
+    height: 300px;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.slider .container .owl-carousel .imgg img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+
+.site-footer-final {
+    /* Light blue background as seen in the upper section */
+    padding: 25px 0; /* Adjusted padding for better visual space */
+    color: #000000; /* Default text color for the copyright */
+    width: 100%; /* Ensure it always stretches full width */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.site-footer-final .footer-line {
+   /* A slightly darker light blue/grey for the line */
+    margin-bottom: 25px; /* Space below the line */
+    /* Ensure the line stretches full width, matching screen edges */
+    width: 100%; /* Explicitly set width to 100% of its parent (.site-footer-final) */
+    position: relative; /* Needed for width 100% within a non-constrained parent */
+    left: 0; /* Align to left edge */
+    right: 0; /* Align to right edge */
+    margin-left: 0; /* Remove any previous left margin */
+    margin-right: 0; /* Remove any previous right margin */
+    padding-left: 0; /* Remove any previous padding */
+    padding-right: 0; /* Remove any previous padding */
+}
+
+.site-footer-final .footer-copyright-text {
+    font-size: 15px; /* Slightly larger font for copyright */
+    
+}
+
+.site-footer-final .footer-social-icon {
+    color: #00cce1; /* Blue icon color matching your site's theme */
+    font-size: 30px; /* Even bigger icons for prominent, clearer look */
+    margin-left: 30px; /* Increased spacing between icons for "clearer" and uncluttered look */
+    transition: color 0.3s ease;
+}
+
+.site-footer-final .footer-social-icon:hover {
+    color: #f69165; /* Hover color (your existing accent orange) */
+}
+
+/* Responsive adjustments for the final footer */
+@media (max-width: 768px) {
+    .site-footer-final .row {
+        flex-direction: column; /* Stack columns on small screens */
+        text-align: center;
+    }
+
+    .site-footer-final .col-auto {
+        width: 100%; /* Ensure full width when stacked */
+        text-align: center;
+    }
+
+    .site-footer-final .d-flex {
+        justify-content: center !important; /* Center icons when stacked */
+        margin-top: 15px; /* Space between copyright and icons */
+    }
+
+    .site-footer-final .footer-social-icon {
+        margin: 0 15px; /* Adjust spacing when centered on smaller screens */
+    }
+
+    .site-footer-final .footer-line {
+        margin-left: 0; /* Ensure line is full width on mobile */
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .site-footer-final .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
